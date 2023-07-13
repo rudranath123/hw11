@@ -1,0 +1,399 @@
+/* * common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.button{
+    display: inline-block;
+    padding: 19px 42px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+}
+
+.heading{
+    text-align: center;
+    
+}
+.heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color:#02918c ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.heading span{
+    font-size: 16px;
+    color: #7e8287;
+}
+
+
+/* * common css */
+/* navbar starts here */
+nav{
+    background:#02918c ;
+}
+nav .logo{
+     width: 40%;
+     align-self: center;
+     
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+
+nav .menu ul li a{
+
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+
+}
+
+/* navbae ends here */
+
+/* * banner starts */
+#Banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.34);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+
+
+
+.banner-cnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.banner-cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner-cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner-cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-cnt img{
+    margin: 50px 0;
+    display: block;
+    margin: 50px auto;
+}
+
+/* About starts here */
+#about{
+    padding: 98px 0;
+}
+
+.about-para{
+    padding-top: 45px;
+    text-align: center;
+    line-height: 25px;
+    
+}
+
+
+.about-para span{
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+
+.about-card{
+    width: 25%;
+    margin-top: 80px;
+    text-align: center;
+    border-right: 1px solid #d9dbdb;
+    padding: 40px 0;
+}
+
+.about-card span{
+    color: #02918c;
+    font-size: 30px;
+}
+
+.about-card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #0b1016;
+    margin: 20px 0;
+}
+
+.about-card p{
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 50px;
+    
+}
+.about-card:last-child{
+    border: none;
+}
+/* About ends here */
+
+/* services starts here */
+
+#services{
+    padding: 70px 0;
+}
+
+.para{
+    padding-top: 30px; 
+    text-align: start; 
+     font-size: 16px;
+    line-height: 24px;
+} 
+
+
+#services{
+    background-image: url(../images/picture.png);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-container{
+    width: 50%;
+    text-align: start;
+}
+
+.services-card{
+    width: 50%;
+    margin-top: 90px;
+    text-align: start;
+    flex-wrap:wrap;
+
+}
+
+.services-card span{
+    color: #02918c;
+    font-size: 30px;
+}
+
+
+.services-card h4{
+    font-size: 15px;
+    font-weight: 800;
+    color: #0b1016;
+    margin: 15px 0;
+}
+
+.services-card{
+    font-size: 11px;
+    color: #7e8287;
+    padding:0 80px;
+}
+
+.row-services{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-card p{
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 5px;
+}
+
+.s-heading{
+    text-align: start;
+    padding-left: 80px;
+
+
+}
+.s-heading h2 {
+    color: #02918c;
+    font-size: 37px;
+}
+.s-heading span{
+    color:#02918c;
+    padding-top: 30px;
+}
+
+.eshita p{
+    text-align: start;
+    padding-left: 80px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+     
+    
+
+
+
+
+
+
+/* services ends here */
+
+/* work starts here */
+#my-work{
+    padding: 100px 0;
+}
+
+.para{
+    padding-top: 30px; 
+    padding-bottom: 10px; 
+    text-align: center; 
+    line-height: 24px;
+}
+/* work ends here */
+
+/* work section starts here */
+#work{
+    padding: 80px 0;
+}
+ 
+.work-card{
+    width: 25%;
+    position: relative;
+    
+    
+}
+
+.work-card img{
+    width: 100%;
+    display: block;
+
+}
+
+.work-card .overlay{
+    position: absolute;
+    background-color: rgba(2, 145, 140,0.85);
+    top: 28px;
+    left: 28px;
+    right: 28px;
+    bottom: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.work-card:hover .overlay{
+    transform: scale(1);
+    opacity: 1;
+}
+/* work section ends here */
+
+/* contact starts here */
+#contact{
+    padding: 90px 60px;
+}
+
+.para{
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+/* contact ends here */
+
+/* contact form starts here */
+#contact-form{
+    background-color: #0b0b0b;
+    padding: 80px 0;
+    text-align: center;
+
+    
+}
+
+.form-input{
+    margin: auto;
+    width: 645px;
+    padding: 10px;   
+}
+
+.form-input.msg{
+    width: 925px;
+    padding: 30px;
+}
+.form-input textarea,
+.form-input input{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.form-input.button{
+    padding-top: 70px 0;
+}
+
+.putap{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+/* contact form ends here */
+
